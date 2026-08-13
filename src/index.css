@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --negro: #2308d2;
+  --negro-suave: #2308d2;
+  --morado: #8b5cf6;
+  --morado-oscuro: #6d28d9;
+  --morado-claro: #c4b5fd;
+  --blanco: #ffffff;
+  --fondo: #ffffff;
+  --gris-texto: #5a5a63;
+  --caja-foto: #efedf7;
+  --borde: #e7e5ec;
+  --radius: 14px;
+  --sombra: 0 8px 24px rgba(11, 11, 13, 0.08);
+  --sombra-hover: 0 14px 32px rgba(139, 92, 246, 0.32);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--fondo);
+  color: var(--negro);
+}
+
+h1, h2, h3 {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
